@@ -85,5 +85,9 @@ Module `XB` is defined in library `XB` (file `XB/XB.ixx`):
 So, **both libraries A and B have a module with the same name X**, but the contents
 are not the same. They both have a struct Z, but the definitions differ.
 
+Note that MSVC finds modules by using references to "projects". Project `XB` (which
+builds the library `XB`) references "project" `B`. So when building `XB`, the compiler
+searches for module `X` in project `B`. When building `XA`, the compiler searches for
+module `X` in project `A`.
 
 <img src="/assets/solution-screenshot.png" alt="Solution screenshot" width="300"/>

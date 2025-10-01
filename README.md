@@ -1,6 +1,6 @@
 # adaptor-mod
 
-This test C++ "solution" for Visual Studio 2026 (open the file `adapter-mod.slnx`) explores
+This test C++ "solution" for Visual Studio 2026 (open the file `adaptor-mod.slnx`) explores
 what happens, if two libraries have a module with the same name (`X`).
 
 The main project builds a Windows exe, which returns a value (file `main/main.cpp`):

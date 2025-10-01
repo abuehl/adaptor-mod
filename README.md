@@ -17,9 +17,9 @@ The main project builds a Windows exe, which returns a value (file `main/main.cp
         return sum;
     }
 
-It imports two modules: XA and XB.
+It imports two modules: `XA` and `XB`.
 
-Module `XA` is defined in library XA (file `XA/XA.ixx`):
+Module `XA` is defined in library `XA` (file `XA/XA.ixx`):
 
     export module XA;
 

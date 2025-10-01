@@ -1,4 +1,4 @@
-# adapter-mod
+# adaptor-mod
 
 This test C++ "solution" for Visual Studio 2026 (open the file `adapter-mod.slnx`) explores
 what happens, if two libraries have a module with the same name (`X`).
